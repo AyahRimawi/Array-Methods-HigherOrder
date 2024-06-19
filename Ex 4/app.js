@@ -9,9 +9,9 @@ document.getElementById('submit-btn').addEventListener('click', function() {
         return parseInt(item.trim());
     });
 
-    array = number;
+    fizzbuzz = number;
 
-    document.getElementById('result1').innerHTML = array;
+    document.getElementById('result1').innerHTML = fizzbuzz;
     
 
     // using map:
